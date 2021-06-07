@@ -1,49 +1,204 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>krishna khadka</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/maxresdefault.jpeg" />
         <link href="css/styles.css" rel="stylesheet" />
+        <title>Krishna Khadka</title>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+        <link rel="stylesheet" href="css/styles.css">
+        <style></style>
     </head>
-    <body>
-        <!-- Background Video-->
-        <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
-        <!-- Masthead-->
-        <div class="masthead">
-            <div class="masthead-content text-white">
-                <div class="container-fluid px-4 px-lg-0">
-                    <h1 class="fst-italic lh-1 mb-4">This Website is Coming Soon</h1>
-                    <p class="mb-5">I am working hard to finish the development of this site. Visit this website later when launched !</p>
-                    <!--<div class="input-group input-group-newsletter">
-                        <input class="form-control" type="email" placeholder="Enter email address..." aria-label="Enter email address..." aria-describedby="submit-button" />
-                        <button class="btn btn-primary" id="submit-button" type="button">Notify Me!</button>
-                    </div>-->
+
+    <body >
+        <div>
+        <div>
+            <nav class="navbar navbar-expand-sm fixed-top navbar-light" id="mainnav" style="background-color: #ffffff;">
+                <a class="navbar-brand" href="">
+                    <img src="assets/img/maxresdefault.jpeg" width="30" height="30" class="d-inline-block align-top" alt="logo">
+                </a>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#blog">Blog<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#contact">Contact<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Others
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Travel</a>
+                            <a class="dropdown-item" href="#">Paintings</a>
+                            <a class="dropdown-item" href="#">Photography</a>
+                        </div>
+                        </li>
+                    </ul>
+
+                    <a href="resume/krishnakhadka.pdf" target="_blank" class="btn btn-sm btn-dark my-2 my-sm-0" role="button" aria-disabled="true">Resume</a>
+                </div>
+            </nav>
+        </div>
+        <div id="about" >
+            <div style="height:450px; background-color: #ffffff;">
+                <div class="container-sm container-fluid d-flex flex-column align-items-left" style="width: 800px;">
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h1 class="display-4">HELLO,</h1>
+                        <h1 class="display-4">I AM <span style="color: #ffbc03; font-style: bold;">KRISHNA KHADKA,</span></h1>
+                    </div>
+                    <div>
+                        <h2 class="display-5"  style="text-align:left;"><span id="tagline1">I AM A </span><span id="tagline2" style="color: #ffbc03;" >SOFTWARE ENGINEER</span></h2>
+                        <br>
+                        <div class="text-center">
+                            <button type="button" class="btn" id="reloadButton" style="background-color: #ffbc03" onclick="taglineChange()"><img src="assets/open-iconic-master/svg/reload.svg" alt="reload" style="width: 20px;height: 20px;"></button>
+                        </div>
+                        <br>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Social Icons-->
-        <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands
-        <div class="social-icons">
-            <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-instagram"></i></a>
+    
+            <div style="height:370px; background-color:#f6d55c;">
             </div>
-        </div>-->
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+        </div>
+        
+        <div id="work">
+            <div style="height:450px; background-color:#ffffff;">
+            </div>
+            <div style="height:370px; background-color:#ed553b;">
+            </div>
+        </div>
+
+        <div id="blog">
+            <div style="height:450px; background-color:#ffffff;">
+            </div>
+            <div style="height:370px; background-color:#3caea3;">
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="text-center my-1">
+                <br>
+                <br>
+                <br>
+                <h2 class="display-5">Contact me</h2>
+                <h6>I believe in continuous improvement and oppurtunities to learn</h6>
+                <h6>if u got something in mind feel free to contact.</h6>
+            </div>
+            <div class="d-flex justify-content-between " style="height:350px; background-color:#ffffff;">
+                <div class="container py-4 " style="width: 400px;">
+                    <form>
+                        <div class="form-group form-row">
+                            <input class="col border" type="text" class="form-control" id="visitorName" placeholder="name">
+                        </div>
+                        <div class="form-group form-row">
+                          <input class="col border" type="email" class="form-control" id="visitorEmail" placeholder="email">
+                        </div>
+                        <div class="form-group form-row">
+                            <input class="col border" type="text" class="form-control" id="visitorEmail" placeholder="subject">
+                          </div>
+                        <div class="form-group form-row">
+                          <textarea class="col border" class="form-control" id="visitorMessage" rows="4" placeholder="message"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn" style="background-color: #20639b; color:#ffffff" >Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!--connect with me page-->
+            <div class="connect px-3" style="height:500px; background-color:#20639b;">
+                <div class="text-center my-1">
+                    <br>
+                    <h2 class="connect-heading display-5" >Connect with me</h2>
+                    <p class="connect-subheading"> if you want to catch up with me here are few active platforms</p>
+                    <br>
+                    <div class="row justify-content-md-center">
+                        <div class="col-sm-2">
+                            <a href="https://github.com/khadkakrishna" style="color: #888888;text-decoration:none;">
+                                <div class="card">
+                                    <div class="p-3" text-align="center">
+                                        <img class="card-img-top" src="assets/img/github.png" style="width:50px; height:50px; " alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="card-title" style="color: #555555">Github</h6>
+                                        <p class="card-text text-left">The code repositories and projects can be found here.</p>
+                                        <p style="color: #555555">Check Github Repos</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="https://www.linkedin.com/in/kkhadka/" style="color: #888888;text-decoration:none;">
+                                <div class="card">
+                                    <div class="p-3" text-align="center">
+                                        <img class="card-img-top" src="assets/img/linkedIn.png" style="width:50px; height:50px; " alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="card-title" style="color: #2e567e">LinkedIn</h6>
+                                        <p class="card-text text-left">Check my professional profile and some blog that i posted.</p>
+                                        <p style="color: #2e567e">Connect on Linkedin</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="https://www.instagram.com/wanderwithkrish/" style="color: #888888;text-decoration:none;">
+                                <div class="card">
+                                    <div class="p-3" text-align="center">
+                                        <img class="card-img-top" src="assets/img/instagram.png" style="width:50px; height:50px; " alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="card-title" style="color: #be3f60">Instagram</h6>
+                                        <p class="card-text text-left">I keep on posting regularly, have a look at my profile.</p>
+                                        <p style="color: #be3f60">Explore Insta Profile</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="https://twitter.com/krishs1999" style="color: #888888;text-decoration:none;">
+                                <div class="card">
+                                    <div class="p-3" text-align="center">
+                                        <img class="card-img-top" src="assets/img/twitter.png" style="width:50px; height:50px; " alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="card-title" style="color: #4a9feb">Twitter</h6>
+                                        <p class="card-text text-left">Not really active on twitter but you can find me here.</p>
+                                        <p style="color: #4a9feb">Follow on twitter</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright py-3 text-center text-white">
+                <div class="container"><small>Copyright &copy; https://krishnakhadka.in 2021</small></div>
+            </div>
+        </div>
+    </div>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
+
     </body>
+
 </html>
