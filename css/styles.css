@@ -14,6 +14,38 @@ body {
   color: black;
 }
 
+.about-picture{
+  height:370px; 
+  background-color: #ffffff; 
+  border-radius: 25px;
+}
+.about-picture-img{
+  height: 300px; 
+  width: 300px;
+}
+
+.sidekick:before, .sidekick:after {
+    color: #f6d55c;
+    font-size: 40px;
+}
+.sidekick:before {content: '\201c'}
+.sidekick:after {content: '\201e';}
+.sidekick cite {font-size: 70%; text-align:center; top:50%}
+.sidekick cite:before {content: ' \2015 '}
+
+.bio-length-options {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(6,30px)
+}
+
+.bio-option {
+  cursor: pointer;
+  height: calc(50px - .66667rem);
+  position: relative
+}
+
+
 .card:hover{
   box-shadow: 8px 8px 5px rgb(58, 58, 58);    
   transform: scale(1.1);
