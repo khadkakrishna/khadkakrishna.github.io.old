@@ -4,5 +4,6 @@
 #173f5f dark blue
 #20639b blue
 #3caea3 green
-#f6d55c yellow
+#888888 dark-grey
+#f8cc2e yellow
 #ed553b red

@@ -15,17 +15,36 @@ body {
 }
 
 .about-picture{
-  height:370px; 
   background-color: #ffffff; 
   border-radius: 25px;
 }
 .about-picture-img{
-  height: 300px; 
-  width: 300px;
+  height: auto; 
+  width: 70%;
 }
 
+.biokick{
+  color: white;
+  font-size: 20px;
+  border-left: 10px solid #888;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;}
+
+.biokick:before, .biokick:after {
+  color: #888;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.biokick:before {content: '\201c'}
+.biokick:after {content: '\201e';}
+
+
+
 .sidekick:before, .sidekick:after {
-    color: #f6d55c;
+    color: #f8cc2e;
     font-size: 40px;
 }
 .sidekick:before {content: '\201c'}
@@ -40,9 +59,16 @@ body {
 }
 
 .bio-option {
-  cursor: pointer;
   height: calc(50px - .66667rem);
   position: relative
+}
+.bio-legend{
+  font-size: 18px;
+
+}
+.bio-label-text{
+  font-size: 14px;
+  color: #ffffff;
 }
 
 
