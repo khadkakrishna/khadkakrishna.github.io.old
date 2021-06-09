@@ -1,60 +1,227 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-B1RXLM48JD"></script>
         <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-B1RXLM48JD');
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-B1RXLM48JD');
         </script>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Software Engineer and Web Developer, based in Bangalore, India" />
         <meta name="keywords" content="krishna khadka, developer,software engineer, hire software engineer, Bootstrap, Software developer, IT professional, portfolio website,HTML,JavaScript"> 
         <meta name="author" content="Krishna Khadka" />
         <title>Krishna Khadka</title>
-
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/maxresdefault.jpeg" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <style></style>
     </head>
+
     <body>
-        <!-- Background Video-->
-        <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
-        <!-- Masthead-->
-        <div class="masthead">
-            <div class="masthead-content text-white">
-                <div class="container-fluid px-4 px-lg-0">
-                    <h1 class="fst-italic lh-1 mb-4">This Website is Coming Soon</h1>
-                    <p class="mb-5">I am working hard to finish the development of this site. Visit this website later when launched !</p>
-                    <!--<div class="input-group input-group-newsletter">
-                        <input class="form-control" type="email" placeholder="Enter email address..." aria-label="Enter email address..." aria-describedby="submit-button" />
-                        <button class="btn btn-primary" id="submit-button" type="button">Notify Me!</button>
-                    </div>-->
+    <div>
+        <div>
+            <nav class="navbar navbar-expand-sm fixed-top navbar-light" id="mainnav" style="background-color: #ffffff;">
+                <a class="navbar-brand" href="">
+                    <img src="assets/img/maxresdefault.jpeg" width="30" height="30" class="d-inline-block align-top" alt="logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" id="about-nav">About<span class="sr-only">(current)</span></a>
+                        </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link" href="#work" id="work-nav">Work<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#blog" id="blog-nav">Blog<span class="sr-only">(current)</span></a>
+                        </li>-->
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#contact" id="contact-nav">Contact<span class="sr-only">(current)</span></a>
+                        </li>
+                        <!--
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Others
+                        </a>
+                        
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Travel</a>
+                            <a class="dropdown-item" href="#">Paintings</a>
+                            <a class="dropdown-item" href="#">Photography</a>
+                        </div>
+                        </li>-->
+                    </ul>
+                    <a href="resume/krishnakhadka.pdf" target="_blank" class="btn btn-sm btn-dark my-2 my-sm-0" role="button" aria-disabled="true">Resume</a>
+                </div>
+            </nav>
+        </div>
+        <div id="about" >
+            <div class="container-sm" style="height:60%; background-color: #ffffff;">
+                <div class="d-flex flex-column align-items-center" style="width: 80%;">
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h1 class="display-4">HELLO,</h1>
+                        <h1 class="display-4">MY NAME IS <span style="color: #f8cc2e; font-style: bold;">KRISHNA,</span></h1>
+                        <!-- <h2 class="display-4"><span>I AM A </span><span style="color: #ffbc03;" >SOFTWARE ENGINEER</span></h2>-->
+                        <h2 class="display-5" style="color: #888888;">I DEVELOP SOFTWARES and WEB APPLICATIONS.</h2>
+                        <br>
+                        <br>
+                    </div>
                 </div>
             </div>
+    
+            <div style="height:60%; background-color:#f8cc2e;">
+                <div class="container-sm">
+                    <div class="row">
+                      <div class="col-sm p-3 m-5">
+                          <div style="height:370px;">
+                            <div>
+                                <form class="bio-length-control">
+                                    <fieldset class="bio-fieldset">
+                                        <legend class="bio-legend">Adjust bio length:</legend>
+                                        <div class="bio-length-options">
+                                            <div class="bio-option">
+                                                <input class="bio-input" onclick="bioChanger()" style="background-color: #ebebeb;" type="radio" id="length-shortest" name="length" value="shortest">
+                                                <label class="bio-label" for="length-shortest">
+                                                    <span class="bio-label-text">shortest</span>
+                                                </label>
+                                            </div>
+                                            <div class="bio-option">
+                                                <input class="bio-input" onclick="bioChanger()" type="radio" id="length-shorter" name="length" value="shorter">
+
+                                            </div>
+                                            <div class="bio-option">
+                                                <input class="bio-input active" onclick="bioChanger()" type="radio" id="length-short" name="length" value="short">
+
+                                            </div>
+                                            <div class="bio-option">
+                                                <input class="bio-input " onclick="bioChanger()" type="radio" id="length-long" name="length" value="long" checked="checked">
+
+                                            </div>
+                                            <div class="bio-option">
+                                                <input class="bio-input" onclick="bioChanger()" type="radio" id="length-longer" name="length" value="longer">
+                                            </div>
+                                            <div class="bio-option">
+                                                <input class="bio-input" onclick="bioChanger()" type="radio" id="length-longest" name="length" value="longest">
+                                                <label class="bio-label" for="length-longest">
+                                                    <span class="bio-label-text">longest</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+
+                            <div class="m-5 ">
+                                <blockquote class="biokick">
+                                    Currently, I am working at <a class="bio-company" target="_blank" href="https://www.microfocus.com">Micro Focus </a>  as a Software Engineer<span id="bio-extended-text">, I believe that art can change the world. So i try to create things in artistic ways.</span></blockquote>
+                            </div>
+                            
+                          </div>
+                      </div>
+                      <div class="col-sm-4  p-3 m-5">
+                        <div class="about-picture">
+                            <div class= "text-center">
+                                <img class="about-picture-img" src="assets/img/dp.jpeg" >
+                                    <blockquote class="sidekick">
+                                        Together we can change the world <cite> mark shepard </cite>
+                                    </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                  </div>
+            </div>
         </div>
-        <!-- Social Icons-->
-        <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands
-        <div class="social-icons">
-            <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-instagram"></i></a>
+        
+        <!--<div id="work">
+            <div style="height:450px; background-color:#ffffff;">
+            </div>
+            <div style="height:370px; background-color:#ed553b;">
+            </div>
+        </div>
+
+        <div id="blog">
+            <div style="height:450px; background-color:#ffffff;">
+            </div>
+            <div style="height:370px; background-color:#3caea3;">
             </div>
         </div>-->
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+
+        <div id="contact">
+            <div class="my-1">
+                <br>
+                <br>
+                <br>
+                <div class="d-flex justify-content-center">
+                    <h2 class="display-5">Contact me</h2>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <blockquote class="contactkick ">I believe in continuous improvement and oppurtunities to learn if u got something in mind feel free to contact.</blockquote>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between " style="height:40%; background-color:#ffffff;">
+                <div class="container py-4 " style="width: 30%;">
+                    <form target="_blank" action="https://formsubmit.co/krishnakhadka2802@gmail.com" method="POST">
+                        <div class="form-group form-row">
+                            <input class="col form-control" type="text" id="visitorName" name="name" placeholder="name" required>
+                        </div>
+                        <div class="form-group form-row">
+                          <input class="col form-control" type="email" id="visitorEmail" name="email" placeholder="email" required>
+                        </div>
+                        <div class="form-group form-row">
+                            <input class="col form-control" type="text" id="visitorEmail" name="subject" placeholder="subject">
+                          </div>
+                        <div class="form-group form-row">
+                          <textarea class="col form-control" id="visitorMessage" rows="4" name="message" placeholder="message" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn" style="background-color: #20639b; color:#ffffff" >Submit</button>
+                        </div>
+                    </form>
+                    <br>
+                </div>
+            </div>
+
+            <!--connect with me page-->
+            <div class="connect px-3" style="height:300px; background-color:#20639b;">
+                <div class="text-center my-1">
+                    <br>
+                    <h2 class="connect-heading display-5" >Connect with me</h2>
+                    <p class="connect-subheading"> if you want to catch up with me here are few active platforms</p>
+                    <br>
+                    <div>
+                        <a target="_blank" href="https://www.linkedin.com/in/kkhadka/" class="fa fa-linkedin"></a>
+                        <a target="_blank" href="https://github.com/khadkakrishna" class="fa fa-github"></a>
+                        <a target="_blank" href="mailto:krishnakhadka2802@gmail.com" class="fa fa-google"></a>
+                        <a target="_blank" href="https://www.facebook.com/wanderwithkrish/" class="fa fa-facebook"></a>
+                        <a target="_blank" href="https://twitter.com/krishs1999" class="fa fa-twitter"></a>
+                        <a target="_blank" href="https://www.instagram.com/wanderwithkrish/" class="fa fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright py-3 text-center text-white">
+                <div class="container"><small>Copyright &copy; https://krishnakhadka.in 2021</small></div>
+            </div>
+        </div>
+    </div>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
+
     </body>
+
 </html>
