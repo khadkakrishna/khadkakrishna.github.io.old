@@ -77,28 +77,28 @@
                                         <legend class="bio-legend">Adjust bio length:</legend>
                                         <div class="bio-length-options">
                                             <div class="bio-option">
-                                                <input class="bio-input" style="background-color: #ebebeb;" type="radio" id="length-shortest" name="length" value="shortest">
+                                                <input class="bio-input" onclick="bioChanger()" style="background-color: #ebebeb;" type="radio" id="length-shortest" name="length" value="shortest">
                                                 <label class="bio-label" for="length-shortest">
                                                     <span class="bio-label-text">shortest</span>
                                                 </label>
                                             </div>
                                             <div class="bio-option">
-                                                <input class="bio-input" type="radio" id="length-shorter" name="length" value="shorter">
+                                                <input class="bio-input" onclick="bioChanger()" type="radio" id="length-shorter" name="length" value="shorter">
 
                                             </div>
                                             <div class="bio-option">
-                                                <input class="bio-input" type="radio" id="length-short" name="length" value="short">
+                                                <input class="bio-input active" onclick="bioChanger()" type="radio" id="length-short" name="length" value="short">
 
                                             </div>
                                             <div class="bio-option">
-                                                <input class="bio-input active"  type="radio" id="length-long" name="length" value="long" checked="checked">
+                                                <input class="bio-input " onclick="bioChanger()" type="radio" id="length-long" name="length" value="long" checked="checked">
 
                                             </div>
                                             <div class="bio-option">
-                                                <input class="bio-input" type="radio" id="length-longer" name="length" value="longer">
+                                                <input class="bio-input" onclick="bioChanger()" type="radio" id="length-longer" name="length" value="longer">
                                             </div>
                                             <div class="bio-option">
-                                                <input class="bio-input" type="radio" id="length-longest" name="length" value="longest">
+                                                <input class="bio-input" onclick="bioChanger()" type="radio" id="length-longest" name="length" value="longest">
                                                 <label class="bio-label" for="length-longest">
                                                     <span class="bio-label-text">longest</span>
                                                 </label>
@@ -109,7 +109,8 @@
                             </div>
 
                             <div class="m-5 ">
-                                <blockquote class="biokick">Currently, I am working at Micro Focus as a Software Engineer, I believe that art can change the world. So i try to create things in artistic ways. I spend most of my time in learning new technologies and reading about it. I give my best in developing effective and effecient softwares and solutions. I believe in lifting each other and share what we learn.</blockquote>
+                                <blockquote class="biokick">
+                                    Currently, I am working at <a class="bio-company" href="www.microfocus.com">Micro Focus </a>  as a Software Engineer<span id="bio-extended-text">, I believe that art can change the world. So i try to create things in artistic ways.</span></blockquote>
                             </div>
                             
                           </div>

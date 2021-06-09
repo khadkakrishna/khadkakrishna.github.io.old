@@ -23,6 +23,16 @@ body {
   width: 70%;
 }
 
+.bio-company{
+  color: black;
+}
+
+.bio-company:hover{
+  color:white;
+  background-color: black;
+  text-decoration: none;
+}
+
 .biokick{
   color: white;
   font-size: 20px;
