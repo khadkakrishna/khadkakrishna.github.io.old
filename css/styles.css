@@ -47,7 +47,6 @@ body {
 .biokick:after {content: '\201e';}
 
 
-
 .sidekick:before, .sidekick:after {
     color: #f8cc2e;
     font-size: 40px;
@@ -77,6 +76,26 @@ body {
 }
 
 
+.contactkick{
+  text-align: center; 
+  width: 40%;
+  color: #20639b;
+  font-size: 16px;
+}
+
+.contactkick:before, .contactkick:after {
+  color: #888;
+  font-size: 4em;
+  line-height: 0.1em;
+}
+.contactkick:before {content: '\201c'}
+.contactkick:after {content: '\201e';}
+
+.form-control:focus {
+  border-color: #20639b;
+  box-shadow: 0 0 0 0.2rem #1160a144;
+} 
+
 .card:hover{
   box-shadow: 8px 8px 5px rgb(58, 58, 58);    
   transform: scale(1.1);
@@ -89,6 +108,7 @@ body {
 .connect .connect-subheading{
   color: #ffffff;
 }
+
 
 .copyright {
   background-color: #000000;
