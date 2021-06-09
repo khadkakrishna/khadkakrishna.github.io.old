@@ -8,6 +8,7 @@
         <link href="css/styles.css" rel="stylesheet" />
         <title>Krishna Khadka</title>
         <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/styles.css">
         <style></style>
     </head>
@@ -24,12 +25,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#about" id="about-nav">About<span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
+                        <!--<li class="nav-item">
                             <a class="nav-link" href="#work" id="work-nav">Work<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link" href="#blog" id="blog-nav">Blog<span class="sr-only">(current)</span></a>
-                        </li>
+                        </li>-->
                         <li class="nav-item ">
                             <a class="nav-link" href="#contact" id="contact-nav">Contact<span class="sr-only">(current)</span></a>
                         </li>
@@ -133,7 +134,7 @@
             </div>
         </div>
         
-        <div id="work">
+        <!--<div id="work">
             <div style="height:450px; background-color:#ffffff;">
             </div>
             <div style="height:370px; background-color:#ed553b;">
@@ -145,7 +146,7 @@
             </div>
             <div style="height:370px; background-color:#3caea3;">
             </div>
-        </div>
+        </div>-->
 
         <div id="contact">
             <div class="my-1">
@@ -159,92 +160,43 @@
                     <blockquote class="contactkick ">I believe in continuous improvement and oppurtunities to learn if u got something in mind feel free to contact.</blockquote>
                 </div>
             </div>
-            <div class="d-flex justify-content-between " style="height:350px; background-color:#ffffff;">
-                <div class="container py-4 " style="width: 400px;">
+            <div class="d-flex justify-content-between " style="height:40%; background-color:#ffffff;">
+                <div class="container py-4 " style="width: 30%;">
                     <form target="_blank" action="https://formsubmit.co/krishnakhadka2802@gmail.com" method="POST">
                         <div class="form-group form-row">
-                            <input class="col form-control" type="text" id="visitorName" placeholder="name">
+                            <input class="col form-control" type="text" id="visitorName" name="name" placeholder="name" required>
                         </div>
                         <div class="form-group form-row">
-                          <input class="col form-control" type="email" id="visitorEmail" placeholder="email">
+                          <input class="col form-control" type="email" id="visitorEmail" name="email" placeholder="email" required>
                         </div>
                         <div class="form-group form-row">
-                            <input class="col form-control" type="text" id="visitorEmail" placeholder="subject">
+                            <input class="col form-control" type="text" id="visitorEmail" name="subject" placeholder="subject">
                           </div>
                         <div class="form-group form-row">
-                          <textarea class="col form-control" id="visitorMessage" rows="4" placeholder="message"></textarea>
+                          <textarea class="col form-control" id="visitorMessage" rows="4" name="message" placeholder="message" required></textarea>
                         </div>
                         <div class="text-center">
                             <button type="submit" class="btn" style="background-color: #20639b; color:#ffffff" >Submit</button>
                         </div>
                     </form>
+                    <br>
                 </div>
             </div>
 
             <!--connect with me page-->
-            <div class="connect px-3" style="height:500px; background-color:#20639b;">
+            <div class="connect px-3" style="height:300px; background-color:#20639b;">
                 <div class="text-center my-1">
                     <br>
                     <h2 class="connect-heading display-5" >Connect with me</h2>
                     <p class="connect-subheading"> if you want to catch up with me here are few active platforms</p>
                     <br>
-                    <div class="row justify-content-md-center">
-                        <div class="col-sm-2">
-                            <a href="https://github.com/khadkakrishna" style="color: #888888;text-decoration:none;">
-                                <div class="card">
-                                    <div class="p-3" text-align="center">
-                                        <img class="card-img-top" src="assets/img/github.png" style="width:50px; height:50px; " alt="Card image cap">
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="card-title" style="color: #555555">Github</h6>
-                                        <p class="card-text text-left">The code repositories and projects can be found here.</p>
-                                        <p style="color: #555555">Check Github Repos</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-2">
-                            <a href="https://www.linkedin.com/in/kkhadka/" style="color: #888888;text-decoration:none;">
-                                <div class="card">
-                                    <div class="p-3" text-align="center">
-                                        <img class="card-img-top" src="assets/img/linkedIn.png" style="width:50px; height:50px; " alt="Card image cap">
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="card-title" style="color: #2e567e">LinkedIn</h6>
-                                        <p class="card-text text-left">Check my professional profile and some blog that i posted.</p>
-                                        <p style="color: #2e567e">Connect on Linkedin</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-2">
-                            <a href="https://www.instagram.com/wanderwithkrish/" style="color: #888888;text-decoration:none;">
-                                <div class="card">
-                                    <div class="p-3" text-align="center">
-                                        <img class="card-img-top" src="assets/img/instagram.png" style="width:50px; height:50px; " alt="Card image cap">
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="card-title" style="color: #be3f60">Instagram</h6>
-                                        <p class="card-text text-left">I keep on posting regularly, have a look at my profile.</p>
-                                        <p style="color: #be3f60">Explore Insta Profile</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-2">
-                            <a href="https://twitter.com/krishs1999" style="color: #888888;text-decoration:none;">
-                                <div class="card">
-                                    <div class="p-3" text-align="center">
-                                        <img class="card-img-top" src="assets/img/twitter.png" style="width:50px; height:50px; " alt="Card image cap">
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="card-title" style="color: #4a9feb">Twitter</h6>
-                                        <p class="card-text text-left">Not really active on twitter but you can find me here.</p>
-                                        <p style="color: #4a9feb">Follow on twitter</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                    <div>
+                        <a target="_blank" href="https://www.linkedin.com/in/kkhadka/" class="fa fa-linkedin"></a>
+                        <a target="_blank" href="https://github.com/khadkakrishna" class="fa fa-github"></a>
+                        <a target="_blank" href="mailto:krishnakhadka2802@gmail.com" class="fa fa-google"></a>
+                        <a target="_blank" href="https://www.facebook.com/wanderwithkrish/" class="fa fa-facebook"></a>
+                        <a target="_blank" href="https://twitter.com/krishs1999" class="fa fa-twitter"></a>
+                        <a target="_blank" href="https://www.instagram.com/wanderwithkrish/" class="fa fa-instagram"></a>
                     </div>
                 </div>
             </div>
